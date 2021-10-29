@@ -40,7 +40,7 @@
 #count how many 4 letter sub strings appear in a string
 
 text = """Video pro buttons that show up where you need them.
-    To change the way a picture fits in your document, click it. To change 
+    To change the way a pic ture fits in your document, click it. To change 
     click Online Video, you can paste in the embed code foru want from the different galleries. Themes and 
     styles also help keep your document coor dina ted. When you click Design and choose a new Theme, the 
 """
