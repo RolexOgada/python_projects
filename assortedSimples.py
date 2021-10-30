@@ -39,16 +39,42 @@
 
 #count how many 4 letter sub strings appear in a string
 
-text = """Video pro buttons that show up where you need them.
-    To change the way a pic ture fits in your document, click it. To change 
-    click Online Video, you can paste in the embed code foru want from the different galleries. Themes and 
-    styles also help keep your document coor dina ted. When you click Design and choose a new Theme, the 
-"""
-words_in_text = text.split()
-word_count = 0
-for i in words_in_text:
-    word_length = len(i)
-    if word_length == 4:
-        word_count += 1
+# text = """Video pro buttons that show up where you need them.
+#     To change the way a pic ture fits in your document, click it. To change 
+#     click Online Video, you can paste in the embed code foru want from the different galleries. Themes and 
+#     styles also help keep your document coor dina ted. When you click Design and choose a new Theme, the 
+# """
+# words_in_text = text.split()
+# word_count = 0
+# for i in words_in_text:
+#     word_length = len(i)
+#     if word_length == 4:
+#         word_count += 1
 
-print(word_count)
+# print(word_count)
+# print(words_in_text.count("change")) #to count specific word
+
+#CHECKING A PALINDROME
+user_input = input("Enter a number: ")
+num_length = len(user_input)
+firstindex = 0
+lastindex = -1
+palindromeCheck = True
+
+while  firstindex < int(num_length/2):
+    rightchars = user_input[firstindex]
+    leftchars = user_input[lastindex]
+    if rightchars != leftchars:
+        palindromeCheck = False
+    firstindex += 1
+    lastindex -= 1
+
+if palindromeCheck:
+    print("That is a palindrome!")
+else:
+    print("That's not a palindrome!")
+
+# if num_length % 2 != 0:
+#     print("Mid number is "+str(user_input[firstindex]))
+# else:
+#     print("No mid numnber")
