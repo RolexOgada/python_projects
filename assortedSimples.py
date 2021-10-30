@@ -1,9 +1,9 @@
 #print sum of number and previuos number
 # start  = int(input("Start number: "))
 # end  = int(input("End number: "))
-# userrange = range(start,end)
+# userrange = range(start,end) #create a range staring and ending at user defined values
 # for i in userrange:
-#     print("The number is "+str(i)+", previous num is "+str(i-1)+" and sum is "+str(i+i-1))
+#     print("Current number is "+str(i)+", previous num is "+str(i-1)+" and sum is "+str(i+i-1))
     # return1
 
 #prints char at even intervals in a string
