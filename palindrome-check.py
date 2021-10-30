@@ -5,7 +5,6 @@ def userinput(text):
     num_length = len(text)
     lastindex = -1
     reversedText = ""
-
     while num_length !=0:
         reversedText = reversedText + text[lastindex]
         num_length -= 1
