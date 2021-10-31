@@ -25,6 +25,7 @@ upperCaseRegex = re.compile(r'Hello$') #return text when the string strictly end
 upperCaseRegex = re.compile(r'^Hello$') #return strictly the word Hello
 upperCaseRegex = re.compile(r'.at') #return any word ending with 'at'
 upperCaseRegex = re.compile(r'First Name: (.*) Last Name: (.*)') #return all charaters after first name: and all characters after second name:
+
 upperCaseRegex = re.compile(r'^\d+$') #return strictly an all digit number (one or more) e.g 1223 returns 1223 while 12c3 returns none
 allCaseRegex = re.compile(r'[a-zA-Z]') #gives caps and lower
 
@@ -40,8 +41,7 @@ regex_phone = re.compile(r"((\d\d\d)? \d\d\d \d\d\d \d\d\d(,)?){3}") #matches ar
 #to do a non-greedy match
 regex_phone = re.compile(r"(\d\d){2,5}?") #the question matk enables python to perform non-gready match by matching the smallest possible
 regex_phone = re.compile(r"((\d\d\d)? \d\d\d \d\d\d \d\d\d(,)?){3,5}") #matches area phone numbers that appear minimum of 3 times and maximum of 5 times in a row...
-regex_phone = re.compi
-le(r"((\d\d\d)? \d\d\d \d\d\d \d\d\d(,)?){3,}") #matches area phone numbers that appear minimum of 3 times and more times in a row...
+regex_phone = re.compile(r"((\d\d\d)? \d\d\d \d\d\d \d\d\d(,)?){3,}") #matches area phone numbers that appear minimum of 3 times and more times in a row...
 regex_phone = re.compile(r"((\d\d\d)? \d\d\d \d\d\d \d\d\d(,)?){,5}") #matches area phone numbers that appear minimum of 0 times and maximum of 5 times in a row...
 regex_literal = re.compile(r"\*\+\?") #area code can appear one or many times...
 # regex_bat = re.compile(r"bat(man|something|money|ton|talion)")
