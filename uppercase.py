@@ -1,2 +1,2 @@
-a = "welcome to kenya!"
-print(a.upper())
+a = "welcome to kenya!".upper()
+# print(a)

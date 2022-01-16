@@ -1,0 +1,50 @@
+Date: 3/1/2022
+Time: 12:11
+Phone Number: +254717109419
+Message: Hello from vscode
+--------------------
+Date: 3/1/2022
+Time: 12:16
+Phone Number: +254717109419
+Message: Hello, from vscode
+--------------------
+Date: 3/1/2022
+Time: 12:18
+Phone Number: +254717109419
+Message: Hello, from vscode
+--------------------
+Date: 3/1/2022
+Time: 12:28
+Phone Number: +254717109419
+Message: User entered message, sent from vscode
+--------------------
+Date: 3/1/2022
+Time: 12:32
+Phone Number: +254705497105
+Message: Hi my sweetheart...
+--------------------
+Date: 3/1/2022
+Time: 12:34
+Phone Number: +254705497105
+Message: Hi my sweetheart...
+--------------------
+Date: 4/1/2022
+Time: 15:42
+Phone Number: +254717109419
+Message: A new day, thank you God!
+--------------------
+Date: 14/1/2022
+Time: 12:9
+Phone Number: +254717109419
+Message: A new dawn
+--------------------
+Date: 14/1/2022
+Time: 12:11
+Phone Number: +254717109419
+Message: A new dawn
+--------------------
+Date: 14/1/2022
+Time: 12:13
+Phone Number: +254717109419
+Message: Test from vscode frd
+--------------------

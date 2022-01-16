@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "q:\Learning\Python\stunning-tech\regex.py", line 363, in <module>
+    print(50/0)
+ZeroDivisionError: division by zero
