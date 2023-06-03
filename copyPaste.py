@@ -1,6 +1,6 @@
 import pyperclip,re
 import os
-
+#regex with copy paste
 phone_regex = re.compile(r"\d\d\d-\d\d\d-\d\d\d\d")
 email_regex = re.compile(r"[a-zA-Z0-9_+.]+@[a-zA-Z09_+.]+")
 text = pyperclip.paste()
